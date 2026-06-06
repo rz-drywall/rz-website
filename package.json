@@ -1,0 +1,40 @@
+{
+  "name": "rz-drywall-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3002 --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{ts,js,tsx,mjs}\""
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.7",
+    "gsap": "^3.13.0",
+    "next": "15.1.11",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "resend": "^6.6.0",
+    "styled-jsx": "^5.1.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/postcss": "^4.0.8",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "15.1.11",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.8",
+    "typescript": "^5"
+  }
+}

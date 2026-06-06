@@ -1,0 +1,58 @@
+@import '../node_modules/tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: Switzer, system-ui, sans-serif;
+
+  --radius-4xl: 2rem;
+
+  /* RZ Drywall brand — charcoal neutrals */
+  --color-ink-50: #f6f6f7;
+  --color-ink-100: #e7e8ea;
+  --color-ink-200: #cfd1d5;
+  --color-ink-300: #a8acb3;
+  --color-ink-400: #767b85;
+  --color-ink-500: #555a64;
+  --color-ink-600: #3f434c;
+  --color-ink-700: #2c2f36;
+  --color-ink-800: #1c1e23;
+  --color-ink-900: #141519;
+  --color-ink-950: #0b0c0e;
+
+  /* Brand — pulled from the RZ Drywall logo: royal blue + vivid red */
+  --color-brand: #1f59f6;
+  --color-brand-light: #5d87f9;
+  --color-brand-dark: #1442c4;
+  --color-brand-darker: #0f329a;
+  --color-accent: #ed1c24;
+  --color-accent-light: #ff4b52;
+  --color-accent-dark: #c0141b;
+
+  /* Backwards-compatible aliases (older class names map to brand blue) */
+  --color-amber-rz: #1f59f6;
+  --color-amber-rz-bright: #5d87f9;
+  --color-amber-rz-deep: #1442c4;
+}
+
+@keyframes move-x {
+  0% {
+    transform: translateX(var(--move-x-from));
+  }
+  100% {
+    transform: translateX(var(--move-x-to));
+  }
+}
+
+@keyframes rz-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
