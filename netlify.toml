@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Official Netlify Next.js runtime — turns the SSR build (server components,
+# the /api/contact route, next/image optimization) into serverless/edge
+# functions. Required for the App Router to render on Netlify.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
