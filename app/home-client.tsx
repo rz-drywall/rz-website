@@ -123,7 +123,7 @@ function Hero() {
           >
             <Button
               href="/contact"
-              className="rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white hover:bg-brand-light hover:shadow-lg hover:shadow-brand/30"
+              className="rounded-full bg-white! px-7 py-3.5 text-sm font-semibold text-ink-950! shadow-lg shadow-brand-darker/20 hover:bg-ink-50!"
             >
               Get a Free Estimate
             </Button>

@@ -40,7 +40,7 @@ function CallToAction() {
         <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
           <Button
             href="/contact"
-            className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-brand shadow-lg shadow-brand-darker/30 hover:bg-ink-50"
+            className="rounded-full bg-white! px-8 py-3.5 text-base font-semibold text-ink-950! shadow-lg shadow-brand-darker/30 hover:bg-ink-50!"
           >
             Get a Free Estimate
           </Button>
